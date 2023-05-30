@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRAMENTO DE filmes</title>
+</head>
+
+<body>
+
+    <h1>Biblioteca</h1>
+    <form id="filmesForm">
+        <input type="text" id="tituloInput" placeholder="Titulo">
+        <input type="text" id="diretorInput" placeholder="diretor">
+        <input type="text" id="ano_lancamentoInput" placeholder="Ano de lançamento">
+        <input type="text" id="generoInput" placeholder="Genero">
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Titulo</th>
+                <th>Diretor</th>
+                <th>Ano de Lançamento</th>
+                <th>Genero</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+
+        <tbody id="filmesTable"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
